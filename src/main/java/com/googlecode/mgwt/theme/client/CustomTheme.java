@@ -4,13 +4,6 @@ import com.google.gwt.core.client.GWT;
 import com.googlecode.mgwt.ui.client.MGWT;
 import com.googlecode.mgwt.ui.client.theme.MGWTClientBundle;
 import com.googlecode.mgwt.ui.client.theme.MGWTTheme;
-import com.googlecode.mgwt.ui.client.theme.base.MGWTClientBundleBaseThemeAndroid;
-import com.googlecode.mgwt.ui.client.theme.base.MGWTClientBundleBaseThemeAndroidTablet;
-import com.googlecode.mgwt.ui.client.theme.base.MGWTClientBundleBaseThemeBlackberry;
-import com.googlecode.mgwt.ui.client.theme.base.MGWTClientBundleBaseThemeDesktop;
-import com.googlecode.mgwt.ui.client.theme.base.MGWTClientBundleBaseThemeIPad;
-import com.googlecode.mgwt.ui.client.theme.base.MGWTClientBundleBaseThemeIPhone;
-import com.googlecode.mgwt.ui.client.theme.base.MGWTClientBundleBaseThemeRetina;
 
 public class CustomTheme implements MGWTTheme {
 	private MGWTClientBundle bundle;
@@ -18,31 +11,31 @@ public class CustomTheme implements MGWTTheme {
 	public CustomTheme() {
 		// instantiate the right theme!
 		if (MGWT.getOsDetection().isAndroidPhone()) {
-			bundle = GWT.create(MGWTClientBundleBaseThemeAndroid.class);
+			bundle = GWT.create(CustomBundleAndroid.class);
 		}
 
 		if (MGWT.getOsDetection().isAndroidTablet()) {
-			bundle = GWT.create(MGWTClientBundleBaseThemeAndroidTablet.class);
+			bundle = GWT.create(CustomBundleAndroidTablet.class);
 		}
 
 		if (MGWT.getOsDetection().isIPhone()) {
 			if (MGWT.getOsDetection().isRetina()) {
-				bundle = GWT.create(MGWTClientBundleBaseThemeRetina.class);
+				bundle = GWT.create(CustomBundleRetina.class);
 			} else {
-				bundle = GWT.create(MGWTClientBundleBaseThemeIPhone.class);
+				bundle = GWT.create(CustomBundleIPhone.class);
 			}
 		}
 
 		if (MGWT.getOsDetection().isIPad()) {
-			bundle = GWT.create(MGWTClientBundleBaseThemeIPad.class);
+			bundle = GWT.create(CustomBundleIpad.class);
 		}
 
 		if (MGWT.getOsDetection().isBlackBerry()) {
-			bundle = GWT.create(MGWTClientBundleBaseThemeBlackberry.class);
+			bundle = GWT.create(CustomBundleBlackberry.class);
 		}
 
 		if (MGWT.getOsDetection().isDesktop()) {
-			bundle = GWT.create(MGWTClientBundleBaseThemeDesktop.class);
+			bundle = GWT.create(CustomBundleDesktop.class);
 		}
 	}
 
