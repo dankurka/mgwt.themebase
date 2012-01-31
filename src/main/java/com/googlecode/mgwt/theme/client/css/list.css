@@ -2,31 +2,31 @@
 	
 }
 
-.mgwt-List.round {
+.mgwt-List-round {
 	
 }
 
-.mgwt-List li {
+.mgwt-List > li {
 	
 }
 
-mgwt-List.round li.first {
+.mgwt-List-round > .mgwt-List-first {
 	
 }
 
-.mgwt-List.round li.last {
+.mgwt-List-round > .mgwt-List-last {
 	
 }
 
-.mgwt-List .selected {
+.mgwt-List-selected {
 	
 }
 
-.mgwt-List .group {
+..mgwt-List-group {
 	
 }
 
-.mgwt-List .group.selected {
+.mgwt-List-group.mgwt-List-selected {
 	
 }
 
