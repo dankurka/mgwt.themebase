@@ -1,16 +1,3 @@
-/*
-
-checkbox dom:
-
-<div class="mgwt-CheckBox">
-	<div class="mgwt-CheckBox-on"></div>
-	<div class="mgwt-CheckBox-middle">
-		<div class="mgwt-CheckBox-middle-content "></div>
-	</div>
-	<div class="mgwt-CheckBox-off"></div>
-</div>
-
-*/
 /* check box style*/
 .mgwt-CheckBox {
 	

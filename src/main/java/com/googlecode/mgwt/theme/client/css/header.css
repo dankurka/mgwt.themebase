@@ -1,19 +1,16 @@
-
-
-
 .mgwt-HeaderPanel {
 	
 }
 
-.mgwt-HeaderPanel .mgwt-HeaderPanel-left {
+.mgwt-HeaderPanel-left {
 	
 }
 
-.mgwt-HeaderPanel .mgwt-HeaderPanel-right {
+.mgwt-HeaderPanel-right {
 	
 }
 
-.mgwt-HeaderPanel .mgwt-HeaderPanel-center {
+.mgwt-HeaderPanel-center {
 	
 }
 
@@ -25,21 +22,21 @@
 	
 }
 
-.mgwt-HeaderButton.back 
+.mgwt-HeaderButton-back 
 
-.mgwt-HeaderButton.back .mgwt-HeaderButton-border-container {
+.mgwt-HeaderButton-back .mgwt-HeaderButton-border-container {
 	
 }
 
-.mgwt-HeaderButton.back .mgwt-HeaderButton-border-content {
+.mgwt-HeaderButton-back .mgwt-HeaderButton-border-content {
 	
 }
 
-.mgwt-HeaderButton.forward .mgwt-HeaderButton-border-container {
+.mgwt-HeaderButton-forward .mgwt-HeaderButton-border-container {
 	
 }
 
-.mgwt-HeaderButton.round {
+.mgwt-HeaderButton-round {
 	
 }
 
@@ -63,7 +60,7 @@
 	
 }
 
-.mgwt-DropDownMenu .mgwt-HeaderButton.back .mgwt-HeaderButton-border-content {
+.mgwt-DropDownMenu .mgwt-HeaderButton-back .mgwt-HeaderButton-border-content {
 	
 }
 
@@ -75,10 +72,10 @@
 	
 }
 
-.mgwt-DropDownMenu .mgwt-HeaderButton.active .mgwt-HeaderButton-text {
+.mgwt-DropDownMenu .mgwt-HeaderButton-active .mgwt-HeaderButton-text {
 	
 }
 
-.mgwt-DropDownMenu .mgwt-HeaderButton.active .mgwt-HeaderButton-border-content {
+.mgwt-DropDownMenu .mgwt-HeaderButton-active .mgwt-HeaderButton-border-content {
 	
 }

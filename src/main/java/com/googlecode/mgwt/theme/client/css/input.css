@@ -1,12 +1,24 @@
-.mgwt-TextBox .box,.mgwt-PasswordTextBox .box,.mgwt-TextArea .box {
+.mgwt-TextBox {
 	
 }
 
-.mgwt-TextBox .cover,.mgwt-PasswordTextBox .cover,.mgwt-TextArea .cover {
+.mgwt-PasswordTextBox {
 	
 }
 
-.mgwt-TextBox,.mgwt-PasswordTextBox,.mgwt-TextArea {
+.mgwt-TextArea {
+	
+}
+
+.mgwt-TextBox .mgwt-InputBox-box {
+	
+}
+
+.mgwt-PasswordTextBox .mgwt-InputBox-box {
+	
+}
+
+.mgwt-TextArea .mgwt-InputBox-box {
 	
 }
 
@@ -18,7 +30,7 @@
 	
 }
 
-.disabled {
+.mgwt-InputBox-disabled {
 	
 }
 

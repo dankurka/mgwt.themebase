@@ -3,29 +3,29 @@
 }
 
 /*style if button is pressed*/
-.mgwt-Button.active {
+.mgwt-Button-active {
 }
 
 /* style for important button*/
-.mgwt-Button.important {
+.mgwt-Button-important {
 }
 
 /* style for important button when pressed*/
-.mgwt-Button.important.active {
+.mgwt-Button-important.mgwt-Button-active {
 }
 
 /* style for a confirm button*/
-.mgwt-Button.confirm {
+.mgwt-Button-confirm {
 }
 
 /* style for confirm button pressed*/
-.mgwt-Button.confirm.active {
+.mgwt-Button-confirm.mgwt-Button-active {
 }
 
 /* style for a small button*/
-.mgwt-Button.small {
+.mgwt-Button-small {
 }
 /*style for a round button */
-.mgwt-Button.round {
+.mgwt-Button-round {
 
 }
