@@ -1,23 +1,19 @@
-.active {
-	
-}
-
-.selected {
-	
-}
-
 .mgwt-TabBar-Button {
 	
 }
 
-.mgwt-TabBar-Button.selected {
+.mgwt-TabBar-Button-active {
 	
 }
 
-.mgwt-TabBar-Button.selected .text {
+.mgwt-TabBar-Button-selected {
 	
 }
 
-.mgwt-TabBar-Button .icon {
+.mgwt-TabBar-Button-text {
+	
+}
+
+.mgwt-TabBar-Button-icon {
 	
 }

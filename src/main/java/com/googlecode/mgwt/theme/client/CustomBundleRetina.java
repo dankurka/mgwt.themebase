@@ -119,7 +119,7 @@ public interface CustomBundleRetina extends ClientBundle, MGWTClientBundle {
 	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/tabbar.css", "com/googlecode/mgwt/ui/client/theme/base/css/iphone/tabbar.css", "css/tabbar.css" })
 	TabBarCss getTabBarCss();
 
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/tabbar_button.css" })
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/tabbar_button.css", "com/googlecode/mgwt/ui/client/theme/base/css/iphone/tabbar_button.css", "css/tabbar_button.css" })
 	TabBarButtonCss getTabBarButtonCss();
 
 	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/tabbar/bookmarks.png")
