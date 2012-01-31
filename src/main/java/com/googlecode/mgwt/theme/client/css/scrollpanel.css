@@ -2,7 +2,7 @@
 	
 }
 
-.mgwt-ScrollPanel .container {
+.mgwt-ScrollPanel-container {
 	
 }
 
@@ -10,18 +10,18 @@
 	
 }
 
-.mgwt-Scrollbar.horizontal {
+.mgwt-Scrollbar-horizontal {
 	
 }
 
-.mgwt-Scrollbar.vertical {
+.mgwt-Scrollbar-vertical {
 	
 }
 
-.mgwt-Scrollbar-Bar.vertical {
+.mgwt-Scrollbar-Bar.mgwt-Scrollbar-vertical {
 	
 }
 
-.mgwt-Scrollbar-Bar.horizontal {
+.mgwt-Scrollbar-Bar.mgwt-Scrollbar-horizontal {
 	
 }
