@@ -37,7 +37,6 @@ import com.googlecode.mgwt.ui.client.theme.base.ProgressIndicatorCss;
 import com.googlecode.mgwt.ui.client.theme.base.PullToRefreshCss;
 import com.googlecode.mgwt.ui.client.theme.base.ScrollPanelCss;
 import com.googlecode.mgwt.ui.client.theme.base.SliderCss;
-import com.googlecode.mgwt.ui.client.theme.base.TabBarButtonCss;
 import com.googlecode.mgwt.ui.client.theme.base.TabBarCss;
 import com.googlecode.mgwt.ui.client.theme.base.UtilCss;
 
@@ -118,9 +117,6 @@ public interface CustomBundleBlackberry extends ClientBundle, MGWTClientBundle {
 
 	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/tabbar.css", "com/googlecode/mgwt/ui/client/theme/base/css/blackberry/tabbar.css", "css/tabbar.css" })
 	TabBarCss getTabBarCss();
-
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/tabbar_button.css", "com/googlecode/mgwt/ui/client/theme/base/css/blackberry/tabbar_button.css", "css/tabbar_button.css" })
-	TabBarButtonCss getTabBarButtonCss();
 
 	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/tabbar/bookmarks.png")
 	ImageResource tabBarBookMarkImage();
