@@ -202,6 +202,9 @@ public interface CustomBundleDesktop extends ClientBundle, MGWTClientBundle {
 	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/locate.png")
 	public ImageResource getButtonBarLocateImage();
 
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/minus.png")
+	public ImageResource getButtonBarMinusImage();
+
 	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/new.png")
 	public ImageResource getButtonBarNewImage();
 
