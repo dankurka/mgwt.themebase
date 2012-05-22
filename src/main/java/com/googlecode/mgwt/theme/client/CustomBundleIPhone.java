@@ -23,6 +23,7 @@ import com.googlecode.mgwt.ui.client.theme.MGWTClientBundle;
 import com.googlecode.mgwt.ui.client.theme.base.ButtonBarButtonCss;
 import com.googlecode.mgwt.ui.client.theme.base.ButtonBarCss;
 import com.googlecode.mgwt.ui.client.theme.base.ButtonCss;
+import com.googlecode.mgwt.ui.client.theme.base.CarouselCss;
 import com.googlecode.mgwt.ui.client.theme.base.CheckBoxCss;
 import com.googlecode.mgwt.ui.client.theme.base.DialogCss;
 import com.googlecode.mgwt.ui.client.theme.base.HeaderCss;
@@ -63,6 +64,9 @@ public interface CustomBundleIPhone extends ClientBundle, MGWTClientBundle {
 
 	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/slider.css", "com/googlecode/mgwt/ui/client/theme/base/css/iphone/slider.css", "css/slider.css" })
 	SliderCss getSliderCss();
+
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/carousel.css", "com/googlecode/mgwt/ui/client/theme/base/css/iphone/carousel.css", "css/carousel.css" })
+	CarouselCss getCarouselCss();
 
 	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/list.css", "com/googlecode/mgwt/ui/client/theme/base/css/iphone/list.css", "css/list.css" })
 	ListCss getListCss();
