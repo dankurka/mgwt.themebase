@@ -42,12 +42,12 @@ import com.googlecode.mgwt.ui.client.theme.base.SliderCss;
 import com.googlecode.mgwt.ui.client.theme.base.TabBarCss;
 import com.googlecode.mgwt.ui.client.theme.base.UtilCss;
 
-public interface CustomBundleAndroid extends ClientBundle, MGWTClientBundle {
+public interface CustomBundleIpadRetina extends ClientBundle, MGWTClientBundle {
 
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/groupinglist.css", "com/googlecode/mgwt/ui/client/theme/base/css/android/groupinglist.css", "css/groupinglist.css" })
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/groupinglist.css", "com/googlecode/mgwt/ui/client/theme/base/css/ipad/groupinglist.css", "css/groupinglist.css" })
 	GroupingList getGroupingList();
 
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/progressbar.css", "com/googlecode/mgwt/ui/client/theme/base/css/android/progressbar.css", "css/progressbar.css" })
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/progressbar.css", "com/googlecode/mgwt/ui/client/theme/base/css/ipad/progressbar.css", "css/progressbar.css" })
 	ProgressBarCss getProgressBarCss();
 
 	// This is a very nasty workaround because GWT CssResource does not support
@@ -60,25 +60,25 @@ public interface CustomBundleAndroid extends ClientBundle, MGWTClientBundle {
 	@Source("com/googlecode/mgwt/ui/client/theme/base/css/util.css")
 	TextResource utilTextResource();
 
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/progressindicator.css", "com/googlecode/mgwt/ui/client/theme/base/css/android/progressindicator.css", "css/progressindicator.css" })
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/progressindicator.css", "com/googlecode/mgwt/ui/client/theme/base/css/ipad/progressindicator.css", "css/progressindicator.css" })
 	ProgressIndicatorCss getProgressIndicatorCss();
 
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/header.css", "com/googlecode/mgwt/ui/client/theme/base/css/android/header.css", "css/header.css" })
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/header.css", "com/googlecode/mgwt/ui/client/theme/base/css/ipad/header.css", "css/header.css" })
 	HeaderCss getHeaderCss();
 
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/slider.css", "com/googlecode/mgwt/ui/client/theme/base/css/android/slider.css", "css/slider.css" })
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/slider.css", "com/googlecode/mgwt/ui/client/theme/base/css/ipad/slider.css", "css/slider.css" })
 	SliderCss getSliderCss();
 
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/carousel.css", "com/googlecode/mgwt/ui/client/theme/base/css/android/carousel.css", "css/carousel.css" })
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/carousel.css", "com/googlecode/mgwt/ui/client/theme/base/css/ipad/carousel.css", "css/carousel.css" })
 	CarouselCss getCarouselCss();
 
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/list.css", "com/googlecode/mgwt/ui/client/theme/base/css/android/list.css", "css/list.css" })
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/list.css", "com/googlecode/mgwt/ui/client/theme/base/css/ipad/list.css", "css/list.css" })
 	ListCss getListCss();
 
 	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/list/arrow.png")
 	DataResource listArrow();
 
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/searchbox.css", "com/googlecode/mgwt/ui/client/theme/base/css/android/searchbox.css", "css/searchbox.css" })
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/searchbox.css", "com/googlecode/mgwt/ui/client/theme/base/css/ipad/searchbox.css", "css/searchbox.css" })
 	MSearchBoxCss getSearchBoxCss();
 
 	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/search/glass.png")
@@ -93,22 +93,22 @@ public interface CustomBundleAndroid extends ClientBundle, MGWTClientBundle {
 	@Source("com/googlecode/mgwt/ui/client/theme/base/css/checkbox.css")
 	CheckBoxCss getCheckBoxCss();
 
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/buttons.css", "com/googlecode/mgwt/ui/client/theme/base/css/android/buttons.css", "css/buttons.css" })
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/buttons.css", "com/googlecode/mgwt/ui/client/theme/base/css/ipad/buttons.css", "css/buttons.css" })
 	ButtonCss getButtonCss();
 
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/scrollpanel.css", "com/googlecode/mgwt/ui/client/theme/base/css/android/scrollpanel.css", "css/scrollpanel.css" })
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/scrollpanel.css", "com/googlecode/mgwt/ui/client/theme/base/css/ipad/scrollpanel.css", "css/scrollpanel.css" })
 	ScrollPanelCss getScrollPanelCss();
 
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/buttonbar.css", "com/googlecode/mgwt/ui/client/theme/base/css/android/buttonbar.css", "css/buttonbar.css" })
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/buttonbar.css", "com/googlecode/mgwt/ui/client/theme/base/css/ipad/buttonbar.css", "css/buttonbar.css" })
 	ButtonBarCss getButtonBarCss();
 
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/dialog.css", "com/googlecode/mgwt/ui/client/theme/base/css/android/dialog.css", "css/dialog.css" })
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/dialog.css", "com/googlecode/mgwt/ui/client/theme/base/css/ipad/dialog.css", "css/dialog.css" })
 	DialogCss getDialogCss();
 
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/main.css", "com/googlecode/mgwt/ui/client/theme/base/css/android/main.css", "css/main.css" })
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/main.css", "com/googlecode/mgwt/ui/client/theme/base/css/ipad/main.css", "css/main.css" })
 	MainCss getMainCss();
 
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/input.css", "com/googlecode/mgwt/ui/client/theme/base/css/android/input.css", "css/input.css" })
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/input.css", "com/googlecode/mgwt/ui/client/theme/base/css/ipad/input.css", "css/input.css" })
 	InputCss getInputCss();
 
 	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/input/ios_check.png")
@@ -120,10 +120,10 @@ public interface CustomBundleAndroid extends ClientBundle, MGWTClientBundle {
 	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/layout.css", "css/layout.css" })
 	LayoutCss getLayoutCss();
 
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/pulltorefresh.css", "com/googlecode/mgwt/ui/client/theme/base/css/android/pulltorefresh.css", "css/pulltorefresh.css" })
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/pulltorefresh.css", "com/googlecode/mgwt/ui/client/theme/base/css/ipad/pulltorefresh.css", "css/pulltorefresh.css" })
 	PullToRefreshCss getPullToRefreshCss();
 
-	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/tabbar.css", "com/googlecode/mgwt/ui/client/theme/base/css/android/tabbar.css", "css/tabbar.css" })
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/tabbar.css", "com/googlecode/mgwt/ui/client/theme/base/css/ipad/tabbar.css", "css/tabbar.css" })
 	TabBarCss getTabBarCss();
 
 	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/tabbar/bookmarks.png")
@@ -177,79 +177,79 @@ public interface CustomBundleAndroid extends ClientBundle, MGWTClientBundle {
 	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/pressed.png")
 	public ImageResource getButtonBarHighlightImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/action.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/action_x2.png")
 	public ImageResource getButtonBarActionImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/arrowdown.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/arrowdown_x2.png")
 	public ImageResource getButtonBarArrowDownImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/arrowleft.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/arrowleft_x2.png")
 	public ImageResource getButtonBarArrowLeftImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/arrowright.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/arrowright_x2.png")
 	public ImageResource getButtonBarArrowRightImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/arrowup.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/arrowup_x2.png")
 	public ImageResource getButtonBarArrowUpImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/bookmarks.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/bookmarks_x2.png")
 	public ImageResource getButtonBarBookmarkImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/camera.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/camera_x2.png")
 	public ImageResource getButtonBarCameraImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/compose.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/compose_x2.png")
 	public ImageResource getButtonBarComposeImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/fastforward.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/fastforward_x2.png")
 	public ImageResource getButtonBarFastForwardImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/info.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/info_x2.png")
 	public ImageResource getButtonBarInfoImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/locate.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/locate_x2.png")
 	public ImageResource getButtonBarLocateImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/minus.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/minus_x2.png")
 	public ImageResource getButtonBarMinusImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/new.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/new_x2.png")
 	public ImageResource getButtonBarNewImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/nextslide.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/nextslide_x2.png")
 	public ImageResource getButtonBarNextSlideImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/organize.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/organize_x2.png")
 	public ImageResource getButtonBarOrganizeImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/pause.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/pause_x2.png")
 	public ImageResource getButtonBarPauseImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/play.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/play_x2.png")
 	public ImageResource getButtonBarPlayImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/plus.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/plus_x2.png")
 	public ImageResource getButtonBarPlusImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/previousslide.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/previousslide_x2.png")
 	public ImageResource getButtonBarPreviousSlideImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/refresh.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/refresh_x2.png")
 	public ImageResource getButtonBarRefreshImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/reply.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/reply_x2.png")
 	public ImageResource getButtonBarReplyImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/rewind.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/rewind_x2.png")
 	public ImageResource getButtonBarRewindImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/search.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/search_x2.png")
 	public ImageResource getButtonBarSearchImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/stop.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/stop_x2.png")
 	public ImageResource getButtonBarStopImage();
 
-	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/trash.png")
+	@Source("com/googlecode/mgwt/ui/client/theme/base/resources/toolbar/trash_x2.png")
 	public ImageResource getButtonBarTrashImage();
 
 }

@@ -26,6 +26,7 @@ import com.googlecode.mgwt.ui.client.theme.base.ButtonCss;
 import com.googlecode.mgwt.ui.client.theme.base.CarouselCss;
 import com.googlecode.mgwt.ui.client.theme.base.CheckBoxCss;
 import com.googlecode.mgwt.ui.client.theme.base.DialogCss;
+import com.googlecode.mgwt.ui.client.theme.base.GroupingList;
 import com.googlecode.mgwt.ui.client.theme.base.HeaderCss;
 import com.googlecode.mgwt.ui.client.theme.base.InputCss;
 import com.googlecode.mgwt.ui.client.theme.base.LayoutCss;
@@ -42,6 +43,9 @@ import com.googlecode.mgwt.ui.client.theme.base.TabBarCss;
 import com.googlecode.mgwt.ui.client.theme.base.UtilCss;
 
 public interface CustomBundleRetina extends ClientBundle, MGWTClientBundle {
+
+	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/groupinglist.css", "com/googlecode/mgwt/ui/client/theme/base/css/iphone/groupinglist.css", "css/groupinglist.css" })
+	GroupingList getGroupingList();
 
 	@Source({ "com/googlecode/mgwt/ui/client/theme/base/css/progressbar.css", "com/googlecode/mgwt/ui/client/theme/base/css/iphone/progressbar.css", "css/progressbar.css" })
 	ProgressBarCss getProgressBarCss();

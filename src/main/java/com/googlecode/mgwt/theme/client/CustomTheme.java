@@ -27,7 +27,12 @@ public class CustomTheme implements MGWTTheme {
 		}
 
 		if (MGWT.getOsDetection().isIPad()) {
-			bundle = GWT.create(CustomBundleIpad.class);
+			if (MGWT.getOsDetection().isIPadRetina()) {
+				bundle = GWT.create(CustomBundleIpadRetina.class);
+			} else {
+				bundle = GWT.create(CustomBundleIpad.class);
+			}
+
 		}
 
 		if (MGWT.getOsDetection().isBlackBerry()) {
