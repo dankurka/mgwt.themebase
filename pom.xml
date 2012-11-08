@@ -16,7 +16,7 @@
 	<name>mgwt-themebase</name>
 
 	<properties>
-		<gwtversion>2.4.0</gwtversion>
+		<gwtversion>2.5.0</gwtversion>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -167,7 +167,7 @@
 			<dependency>
 				<groupId>com.googlecode.mgwt</groupId>
 				<artifactId>mgwt</artifactId>
-				<version>1.0.2-SNAPSHOT</version>
+				<version>1.2.0-SNAPSHOT</version>
 			</dependency>
 	</dependencies>
 
