@@ -2,6 +2,7 @@ package com.googlecode.mgwt.theme.client;
 
 import com.google.gwt.core.client.GWT;
 import com.googlecode.mgwt.ui.client.MGWT;
+import com.googlecode.mgwt.ui.client.OsDetection;
 import com.googlecode.mgwt.ui.client.theme.MGWTClientBundle;
 import com.googlecode.mgwt.ui.client.theme.MGWTTheme;
 
@@ -10,24 +11,25 @@ public class CustomTheme implements MGWTTheme {
 
 	public CustomTheme() {
 		// instantiate the right theme!
-		if (MGWT.getOsDetection().isAndroidPhone()) {
+		OsDetection osDetection = MGWT.getOsDetection();
+		if (osDetection.isAndroidPhone()) {
 			bundle = GWT.create(CustomBundleAndroid.class);
 		}
 
-		if (MGWT.getOsDetection().isAndroidTablet()) {
+		if (osDetection.isAndroidTablet()) {
 			bundle = GWT.create(CustomBundleAndroidTablet.class);
 		}
 
-		if (MGWT.getOsDetection().isIPhone()) {
-			if (MGWT.getOsDetection().isRetina()) {
+		if (osDetection.isIPhone()) {
+			if (osDetection.isRetina()) {
 				bundle = GWT.create(CustomBundleRetina.class);
 			} else {
 				bundle = GWT.create(CustomBundleIPhone.class);
 			}
 		}
 
-		if (MGWT.getOsDetection().isIPad()) {
-			if (MGWT.getOsDetection().isIPadRetina()) {
+		if (osDetection.isIPad()) {
+			if (osDetection.isIPadRetina()) {
 				bundle = GWT.create(CustomBundleIpadRetina.class);
 			} else {
 				bundle = GWT.create(CustomBundleIpad.class);
@@ -35,11 +37,11 @@ public class CustomTheme implements MGWTTheme {
 
 		}
 
-		if (MGWT.getOsDetection().isBlackBerry()) {
+		if (osDetection.isBlackBerry()) {
 			bundle = GWT.create(CustomBundleBlackberry.class);
 		}
 
-		if (MGWT.getOsDetection().isDesktop()) {
+		if (osDetection.isDesktop()) {
 			bundle = GWT.create(CustomBundleDesktop.class);
 		}
 	}
