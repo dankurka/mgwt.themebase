@@ -1,19 +1,21 @@
-.mgwt-SearchBox {
-	
+::-webkit-search-cancel-button {
+  
 }
-
-.mgwt-SearchBox-round {
-	
-}
-
 .mgwt-SearchBox-input {
-	
+  
 }
-
 .mgwt-SearchBox-clear {
-	
+  
 }
-
+.mgwt-SearchBox {
+  
+}
+.mgwt-SearchBox-icon {
+  
+}
+.mgwt-SearchBox-round {
+  
+}
 .mgwt-SearchBox-clear-active {
-	
+  
 }

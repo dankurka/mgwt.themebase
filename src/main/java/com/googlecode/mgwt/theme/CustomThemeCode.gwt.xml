@@ -1,0 +1,4 @@
+<module>
+	<inherits name="com.googlecode.mgwt.ui.UI" />
+	<source path="client" />
+</module>

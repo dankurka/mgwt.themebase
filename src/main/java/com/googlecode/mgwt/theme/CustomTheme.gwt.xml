@@ -1,0 +1,91 @@
+<module>
+  <inherits name="com.googlecode.mgwt.theme.CustomThemeCode" />
+
+  <replace-with class="com.googlecode.mgwt.theme.client.ButtonCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.button.ButtonAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.ImageButtonCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.button.ImageButtonAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.ButtonBarCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.buttonbar.ButtonBarAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.CarouselCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.carousel.CarouselAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.OptionsDialogCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.dialog.options.OptionsDialogAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.DialogPanelCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.dialog.panel.DialogPanelAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.FormCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.form.FormAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.HeaderCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.header.HeaderAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.InputCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.input.InputAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.MCheckBoxCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.input.checkbox.MCheckBoxAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.MListBoxCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.input.listbox.MListBoxAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.MRadioButtonCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.input.radio.MRadioButtonAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.MSearchBoxCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.input.search.MSearchBoxAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.SliderCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.input.slider.SliderAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.CellListCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.list.celllist.CellListAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.GroupingCellListCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.list.celllist.GroupingCellListAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.WidgetListCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.list.widgetlist.WidgetListAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.MainResourceCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.resource.MainResourceAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.PanelCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.panel.PanelAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.ProgressBarCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.progress.ProgressBarAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.ProgressIndicatorCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.progress.ProgressIndicatorAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.TabBarCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.tabbar.TabBarAppearance" />
+  </replace-with>
+</module>
