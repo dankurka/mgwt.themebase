@@ -1,41 +1,15 @@
-.z_index {
-	
+.mgwt-DialogPanel-footer {
+  
 }
-
-.active{}
-
-.mgwt-DialogAnimationContainer-Shadow {
-	
+.mgwt-DialogPanel-container {
+  
 }
-
-.mgwt-DialogAnimationContainer {
-	
+.mgwt-DialogPanel-content {
+  
 }
-
-.mgwt-BottomPanel {
-	
+.mgwt-DialogPanel-title {
+  
 }
-
 .mgwt-DialogPanel {
-	
-}
-
-.mgwt-DialogPanel .container {
-	
-}
-
-.mgwt-DialogPanel .title {
-	
-}
-
-.mgwt-DialogPanel .content {
-	
-}
-
-.mgwt-DialogPanel .footer {
-	
-}
-
-.mgwt-DialogPanel .okbutton,.mgwt-DialogPanel .cancelbutton {
-	
+  
 }
