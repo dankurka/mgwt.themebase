@@ -1,0 +1,95 @@
+<module>
+  <inherits name="com.googlecode.mgwt.theme.CustomThemeCode" />
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.ButtonCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.button.ButtonAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.ImageButtonCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.button.ImageButtonAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.ButtonBarCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.buttonbar.ButtonBarAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.CarouselCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.carousel.CarouselAppearance" />
+  </replace-with>
+
+  <!-- Since we do not have UiBinder for OptionsDialog we just rebind to css appearance -->
+  <replace-with class="com.googlecode.mgwt.theme.client.OptionsDialogCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.dialog.options.OptionsDialogAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.DialogPanelCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.dialog.panel.DialogPanelAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.FormCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.form.FormAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.HeaderCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.header.HeaderAppearance" />
+  </replace-with>
+
+  <!-- Since we do not have DOM for InputAppearance we simple rebind to css -->
+  <replace-with class="com.googlecode.mgwt.theme.client.InputCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.input.InputAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.MCheckBoxCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.input.checkbox.MCheckBoxAppearance" />
+  </replace-with>
+
+  <!-- Since we do not have DOM for MListBox we just rebind to css -->
+  <replace-with class="com.googlecode.mgwt.theme.client.MListBoxCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.input.listbox.MListBoxAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.MRadioButtonCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.input.radio.MRadioButtonAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.MSearchBoxCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.input.search.MSearchBoxAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.SliderCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.input.slider.SliderAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.CellListCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.list.celllist.CellListAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.GroupingCellListCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.list.celllist.GroupingCellListAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.WidgetListCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.list.widgetlist.WidgetListAppearance" />
+  </replace-with>
+
+  <!-- since there is no DOM we just rebind to css -->
+  <replace-with class="com.googlecode.mgwt.theme.client.MainResourceCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.resource.MainResourceAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.PanelCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.panel.PanelAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.ProgressBarCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.progress.ProgressBarAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.ProgressIndicatorCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.progress.ProgressIndicatorAppearance" />
+  </replace-with>
+
+  <replace-with class="com.googlecode.mgwt.theme.client.uibinder.TabBarCustomAppearance">
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.tabbar.TabBarAppearance" />
+  </replace-with>
+</module>

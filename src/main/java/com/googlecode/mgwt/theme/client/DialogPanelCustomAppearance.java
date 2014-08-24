@@ -10,11 +10,14 @@ public class DialogPanelCustomAppearance extends DialogPanelAbstractAppearance {
   static {
     Resources.INSTANCE.css().ensureInjected();
     Resources.INSTANCE.cssPanel().ensureInjected();
+    Resources.INSTANCE.overlay().ensureInjected();
   }
 
   interface CssButton extends DialogButtonCss {}
 
   interface CssDialog extends DialogCss {}
+
+  interface OverlayCss extends DialogOverlayCss{}
 
   interface Resources extends ClientBundle {
 
@@ -25,6 +28,9 @@ public class DialogPanelCustomAppearance extends DialogPanelAbstractAppearance {
 
     @Source({"com/googlecode/mgwt/ui/client/widget/dialog/panel/dialog.css", "css/dialog.css"})
     CssDialog cssPanel();
+
+    @Source({"com/googlecode/mgwt/ui/client/widget/dialog/overlay/dialog-overlay.css", "css/dialog.css"})
+    OverlayCss overlay();
   }
 
   @Override
@@ -35,5 +41,10 @@ public class DialogPanelCustomAppearance extends DialogPanelAbstractAppearance {
   @Override
   public DialogButtonCss css() {
     return Resources.INSTANCE.css();
+  }
+
+  @Override
+  public DialogOverlayCss overlayCss() {
+    return Resources.INSTANCE.overlay();
   }
 }
